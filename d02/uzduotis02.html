@@ -2,72 +2,88 @@
 <html lang="">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programavimo kursai Vilniuje ir Kaune - Vilniuscoding.lt </title>
-    <style>
-        table, th, td {
-          border:1px solid black;
-        }
-        </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programavimo kursai Vilniuje ir Kaune - Vilniuscoding.lt </title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
 </head>
 
 <body>
-    <h2>About</h2>
-    <b>Lorem Ipsum</b> is simply dummy text of the <i>printing and typesetting industry</i>. Lorem Ipsum has been the
-    industry's standart dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-    to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essentially unchanged.
-    <h2>Projects</h2>
+  
+  <img src="images\coding_logo.jpg" alt="coding_logo" style="width:300px">
+  <h2>About</h2>
+  <b>Lorem Ipsum</b> is simply dummy text of the <i>printing and typesetting industry</i>. Lorem Ipsum has been the
+  industry's standart dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+  to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged.
+  <h2>Projects</h2>
+  <ul>
+    <li>Featured</li>
+    <br>
     <ul>
-        <li>Featured</li>
-        <br>
-        <ul>
-            <li><a href="Project_1.html"><u>Project 1</u></a></li>
-            <li><a href="Project_2.html"><u>Project 2</u></a></li>
-        </ul>
-        <br>
-        <li>Latest</li>
-        <br>
-        <ul>
-            <li><a href="Project_3.html"><u>Project 3</u></a></li>
-            <li><a href="Project_4.html"><u>Project 4</u></a></li>
-        </ul>
+      <li><a href="Project_1.html"><u>Project 1</u></a></li>
+      <li><a href="Project_2.html"><u>Project 2</u></a></li>
     </ul>
-    <h2>Festival Schedule</h2>
-      </table style="width:10%">
-      <table>
-        <tr>
-          <th>Time</th>
-          <th>Topic</th>
-        </tr>
-        <tr>
-          <td>9:20-12:00</td>
-          <td>Registration</td>
-        </tr>
-        <tr>
-          <td>12:00-14:00</td>
-          <td>Keynote</td>
-        </tr>
-      </table>
-      
-    <h2>Sign Up!</h2>
-    <form action="/action_page.php">
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname" placeholder="Enter your Name" ><br>
-        <label for="lname">Email:</label>
-        <input type="text" id="lname" name="lname" placeholder="Enter your Email">
-      </form>
-      <form action="/action_page.php">
-        <label for="Choose city">Location:</label>
-        <select name="Choose city" id="Choose city">
-          <option value="" disabled selected>Choose city</option>
-          <option value="Kaunas">Kaunas</option>
-          <option value="Vilnius">Vilnius</option>
-          <option value="Klaipėda">Klaipėda</option>
-          <option value="Šiauliai">Šiauliai</option>
-        </select>
+    <br>
+    <li>Latest</li>
+    <br>
+    <ul>
+      <li><a href="Project_3.html"><u>Project 3</u></a></li>
+      <li><a href="Project_4.html"><u>Project 4</u></a></li>
+    </ul>
+  </ul>
+  <h2>Festival Schedule</h2>
+  </table style="width:10%">
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Topic</th>
+    </tr>
+    <tr>
+      <td>9:20-12:00</td>
+      <td>Registration</td>
+    </tr>
+    <tr>
+      <td>12:00-14:00</td>
+      <td>Keynote</td>
+    </tr>
+  </table>
+
+  <h2>Sign Up!</h2>
+  <form action="/action_page.php">
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your Name"><br>
+    <label for="lname">Email:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter your Email">
+  </form>
+  <form action="/action_page.php">
+    <label for="Choose city">Location:</label>
+    <select name="Choose city" id="Choose city">
+      <option value="" disabled selected>Choose city</option>
+      <option value="Kaunas">Kaunas</option>
+      <option value="Vilnius">Vilnius</option>
+      <option value="Klaipėda">Klaipėda</option>
+      <option value="Šiauliai">Šiauliai</option>
+    </select><br>
+    <form action="">
+      <label for="Gender">Gender:</label>
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="other"> Other
+    </form>
+    <form action="">
+      <label for="Message">Message:</label><br>
+      <textarea rows="2" cols="20" placeholder="Your message"></textarea>
+    </form>
+    <button type="button" onclick="alert('Sign Up successfull')">Sign Up</button>
+
 </body>
 
 </html>
