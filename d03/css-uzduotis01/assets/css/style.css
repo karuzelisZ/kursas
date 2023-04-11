@@ -33,16 +33,16 @@ div>p{font-size: 25px}
 /* gali reiketi google pagalbos*/
 
 /*<input> elementai su type="text" atributu turi pilka fona*/
-input[type=text]{background-color: grey;}
+input[type="text"]{background-color: grey;}
 
 /* Abu <p> kurie yra trecio <div> viduje, turi ruzava fona*/
-div>p:nth-child(3){color: pink;}
+div:nth-child(5){color: pink;}
 
 /* Label elementu tekstas yra rasomas didziosiomis raidemis*/
-label{text-transform: uppercase;}
+label{text-transform: capitalize;}
 
 /* Pirmoji raide elementuose su klase "special" yra zalios spalvos ir 100px dydzio*/
-.special::first-letter{text-transform: Capitalize; color: green;}
+.special::first-letter{font-size: 100px; color: green;}
 
 /* h1 elementu spalva pasikecia i melyna, kai ant ju uzvedama pele */
 h1:hover{color: blue;}
