@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 5px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 50px 50px 50px;
     grid-template-areas:
@@ -10,32 +10,26 @@
  }
  
 .red {
-
-    border-radius: 3px;
     /*grid-column: 1/7;*/
     grid-area:r
 
 }
 
 .blue{
-    border-radius: 3px;
     /*grid-column: 7/-1;*/
     grid-area:b
 }
 
 .green {
-    border-radius: 3px;
     /*grid-column: 1/ 4;*/
     grid-area:g
 }
 
 .purple {
-    border-radius: 3px;
     /*grid-column: 4/-1;*/
     grid-area:p
 }
 .yellow {
-    border-radius: 3px;
     /*grid-column: 1/-1;*/
     grid-area:y
 }

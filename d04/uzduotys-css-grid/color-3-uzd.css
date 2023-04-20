@@ -10,6 +10,7 @@ html, body {
     font-size: 2em;
     color: #f7f7f7;
     text-transform: uppercase;
+    border-radius: 3px;
 }
 
 .container > div:nth-child(1n) {
