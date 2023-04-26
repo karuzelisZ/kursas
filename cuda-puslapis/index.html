@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById('mMenu');
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else{
+                x.style.display = "block";
+            }
+        }
+    </script>
 </head>
-
 <body>
     <header class="site-header">
         <div class="container flex-container">
@@ -27,6 +36,18 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+            </nav>
+            <nav class="mobile-nav">
+                <ul id="mMenu" class="flex-container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="bi bi-list"></i>
+                </a>
             </nav>
         </div>
     </header>
@@ -73,18 +94,32 @@
                 <h2>Get in touch</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odit magni, eius rerum quidem obcaecati architecto ab cumque facilis cupiditate!</p>
             </div>
-            <!-- klaida? sutsitikrint koda su destytojo -->
-            <section class="content">
+            <div class="section-content">
                 <form class="contact-form">
                     <div class="input-row">
                         <input type="text" placeholder="Your Name" name="name">
                         <input type="email" placeholder="Your Email" name="email">
                     </div>
                     <textarea name="message" placeholder="Your Message" rows="8"></textarea>
-                    <input type="submit" name="submit" class="btn btn=form">
+                    <input type="Submit" name="Submit" class="btn btn-form">
                 </form>
-            </section>
+            </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav footer-nav">
+                <ul class="flex-container">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>  
+                  <li><a href="#">Google+</a></li>  
+                  <li><a href="#">LinkedIn</a></li>  
+                  <li><a href="#">Behance</a></li>  
+                  <li><a href="#">Dribble</a></li>
+                  <li><a href="#">Github</a></li>      
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

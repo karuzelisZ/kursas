@@ -92,6 +92,7 @@ section > .container {
     border-bottom:4px solid #c86a40;
     margin-top:40px;
     display:inline-block;
+    cursor: pointer;
 }
 
 /* SERVICES */
