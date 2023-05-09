@@ -22,8 +22,8 @@ body {
 
 .container {
     max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: auto auto;
+    padding: 20px 20px;
 }
 
 .flex-container {
@@ -32,7 +32,7 @@ body {
 
 .site-header .container {
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
 }
 
 .main-nav li {
@@ -58,11 +58,11 @@ body {
 }
 
 .logo {
-    padding: 55px 0;
+    padding: px 0;
     
 }
 img{
-    max-width: 30%;
+    max-width: 25%;
     max-height: 30%;
 }
 
@@ -85,19 +85,20 @@ section> .container {
 }
 
 .hero a,.btn {
-    font-size: 1.125rem;
+    font-size: 1rem;
     letter-spacing: 0.02em;
     color: #0a0a0a;
     text-transform: uppercase;
     text-decoration: none;
     background-color: #5ebfa5;
-    padding: 20px 82px 25px;
+    padding: 12px 12px 12px;
     border-radius: 5px;
     border-bottom:4px solid #2f6e5d;
     margin-top: 40px;
     display: inline-block;
     cursor: pointer;
 }
+
 /* FOOTER*/
 .footer{
     background-color: #f8f8f8;
@@ -114,7 +115,7 @@ section> .container {
     padding: 5px;
     color: #0a0a0a;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
@@ -152,7 +153,7 @@ section> .container {
         list-style: none;
     }
     .mobile-nav a{
-        color: #3c4761;
+        color: #0a0a0a;
         font-size: 1rem;
         text-transform: uppercase;
         text-decoration: none;
