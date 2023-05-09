@@ -14,7 +14,7 @@ body {
 }
 
 .site-header {
-    background-color: #fff;
+    background-color: #f8f8f8;
     position: fixed;
     width: 100%;
     display: block;
@@ -40,7 +40,7 @@ body {
 }
 
 .main-nav a {
-    color: #0b0b0b;
+    color: #0a0a0a;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1rem;
@@ -49,10 +49,8 @@ body {
 }
 
 .main-nav a:hover, .main-nav a:active{
-    background-color: #fff;
-    border-color: #686868;
+    background-color: #5ebfa5;
     border-radius: 5px;
-    border-style: solid;
 }
 
 .mobile-nav{
@@ -61,13 +59,11 @@ body {
 
 .logo {
     padding: 55px 0;
-    display: block;
-    
 }
 
 /* HERO */
 .hero{
-    background-color: #87509c;
+    background-color: #fff;
     text-align: center;
     padding-top: 100px;
 }
@@ -77,153 +73,28 @@ section> .container {
 }
 
 .hero h1 {
-    color: #f7f3ea;
+    color: #0a0a0a;
     font-size: 2.625rem;
     line-height: 1.1428;
 }
 
-.hero a, .contact .btn {
+.hero a,.btn {
     font-size: 1.125rem;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #0a0a0a;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #eb7d4b;
+    background-color: #5ebfa5;
     padding: 20px 82px 25px;
     border-radius: 5px;
-    border-bottom:4px solid #c86a40;
+    border-bottom:4px solid #2f6e5d;
     margin-top: 40px;
     display: inline-block;
     cursor: pointer;
 }
-
-/* SERVICES */
-.services {
-    background-color: #17c2a4;
-}
-
-.section-heading {
-    text-align: center;
-    color: #fff;
-}
-
-.section-heading h2 {
-    font-size: 2.5rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
-
-.section-heading h2::after {
-    content: "";
-    display: block;
-    width: 90px;
-    border-top: 4px solid #14a58c;
-    margin: 22px auto;
-}
-
-.container a, .container p, .container h3 {
-    font-size: 1.25rem;
-    letter-spacing: 0.02em;
-}
-
-.section-heading p {
-    max-width: 610px;
-    margin: 0 auto;
-    line-height: 1.625;
-}
-
-.service {
-    text-align: center;
-    color: #fff;
-    max-width: 200px;
-    margin: 80px auto 0;
-}
-
-.service h3{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.services p {
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 300;
-}
-
-/* Contact */
-.contact {
-    background-color: #3c5499;
-    color: #fff;
-}
-
-.contact .container{
-    padding-bottom: 60px;
-}
-
-.contact .section-heading h2:after{
-    border-color: #273a71;
-}
-
-.contact .section-heading p {
-    max-width: 780px;
-}
-
-.contact .section-content{
-    width: 80%;
-    max-width: 860px;
-    margin: 80px auto;
-}
-
-.contact .section-content .contact-form .input-row{
-    margin-bottom: 30px;
-}
-
-.contact .section-content .contact-form .input-row input {
-    padding: 20px 25px;
-    border-radius: 5px;
-    border: none;
-    background-color: #273a71;
-    color: #fff;
-    width: calc(50% - 18px);
-}
-
-.contact .section-content .contact-form .input-row input::placeholder,
-.contact .section-content .contact-form textarea::placeholder{
-    color: #fff;
-}
-
-.contact .section-content .contact-form .input-row input:first-child{
-    margin-right: 16px;
-}
-
-.contact .section-content .contact-form .input-row input:last-child{
-    margin-left: 16px;
-}
-
-.contact .section-content .contact-form textarea{
-    border: none;
-    width: 100%;
-    border-radius: 5px;
-    padding: 25px;
-    background-color: #273a71;
-    color: #fff;
-}
-
-.contact .section-content .contact-form .btn-form {
-    background-color: #30bae7 ;
-    border-color: #299ec5;
-}
-
-.contact .btn{
-    margin: 60px auto 0;
-    display: block;
-    width: 300px;
-}
-
 /* FOOTER*/
 .footer{
-    background-color: #344b8e;
+    background-color: #f8f8f8;
     padding: 50px 0;
 }
 
@@ -235,7 +106,7 @@ section> .container {
 .footer ul li a{
     display: block;
     padding: 5px;
-    color: #fff;
+    color: #0a0a0a;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
@@ -243,7 +114,8 @@ section> .container {
 }
 
 .footer ul li a:hover{
-    color: #30bae7;
+    background-color: #5ebfa5;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:980px){
@@ -283,16 +155,16 @@ section> .container {
         display: block;
     }
     .mobile-nav a:hover, .mobile-nava:active{
-        background-color: #643a79;
+        background-color: #37806c;
         border-radius: 5px;
-        color: #fff;
+        color: #0a0a0a;
     }
     .mobile-nav a.icon{
         display: block;
         position: absolute;
         right: 0;
         top: 60px;
-        color: #fff;
+        color: #0a0a0a;
     }
 
     .services .section-content {
