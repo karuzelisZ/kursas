@@ -8,35 +8,87 @@ Sukurkite 4 kintamuosius, kurie saugotų jūsų vardą, pavardę, gimimo metus i
 "Aš esu Vardenis Pavardenis. Man yra XX metai(-ų)".
 */
 
+let vardas = 'Jonas'
+let pavarde = 'Petraitis'
+let dob = 1997
+let date = 2023
+console.log('Aš esu ' + vardas +' '+ pavarde + '. ' + 'Man yra ' + (date-dob) +' '+ 'metai(-ų)')
 
 
 /* 02.
 Naudokite funkciją Math.random(). Sukurkite du kintamuosius ir naudodamiesi funkcija Math.random() jiems priskirkite atsitiktines reikšmes nuo 0 iki 4. Didesnę reikšmę padalinkite iš mažesnės. Atspausdinkite rezultatą jį suapvalinę iki 2 skaičių po kablelio.
 */
-
+let p = Math.random() * 4
+let a = Math.random() * 4
+if (p > a) {
+    p/a
+    console.log(Math.round((p + Number.EPSILON) *100)/100)
+} else {
+    a/p
+    console.log(Math.round((a + Number.EPSILON) *100)/100)
+}
 
 
 /* 03.
 Naudokite funkciją Math.random(). Sukurkite tris kintamuosius ir naudodamiesi funkcija Math.random() jiems priskirkite atsitiktines reikšmes nuo 0 iki 25. Raskite ir atspausdinkite kintąmąjį turintį vidurinę reikšmę.
 */
-
+let pi = Math.random() * 25
+let an = Math.random() * 25
+let tr = Math.random() * 25
+if (an > pi < tr){
+    console.log(pi);
+}
+else if (pi > an < tr){
+    console.log(an);
+} 
+else if (pi > tr < an){
+console.log(tr);}
 
 
 /* 04.
 Įvedami skaičiai - kr1, kr2, kr3 – kraštinių ilgiai, trys kintamieji (naudokite ​Math.random()​ funkcija nuo 1 iki 10). Parašykite JavaScript programą, kuri nustatytų, ar galima sudaryti trikampį ir atsakymą atspausdintų. 
 */
-
-
+let kr1 = (Math.random() * 10) +1
+let kr2 = (Math.random() * 10) +1
+let kr3 = (Math.random() * 10) +1
+if (kr1+kr2+kr3) {
+    console.log('galima sudaryti trikampį')
+} else {
+    console.log('negalima sudaryti trikampį')
+}
 
 /* 05.
 Sukurkite keturis kintamuosius ir ​Math.random()​ funkcija sugeneruokite jiems reikšmes nuo 0 iki 2. Suskaičiuokite kiek yra nulių, vienetų ir dvejetų.
 */
-
-
+let pir = Math.random() * 2
+let ant = Math.random() * 2
+let tre = Math.random() * 2
+let ket = Math.random() * 2
+if (an > pi < tr){
+    console.log(pi);
+}
+else if (pi > an < tr){
+    console.log(an);
+} 
+else if (pi > tr < an){
+console.log(tr);}
+else if (pi > tr < an){
+    console.log(tr);}
 
 /* 06.
 Naudokite funkcija Math.random(). Atspausdinkite 3 skaičius nuo -10 iki 10. Skaičiai mažesni už 0 turi būti  laužtiniuose skliaustuose [], 0 -  (), didesni už 0 {}.
 */
+let v = Math.random() * 4
+
+if (v < 0){
+    console.log('['+ v + ']');
+}
+else if (v = 0){
+    console.log('('+ v + ')');
+}else if (v > 0){
+    console.log('{'+ v + '}');
+}
+
 
 
 
