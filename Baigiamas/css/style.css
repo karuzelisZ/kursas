@@ -99,6 +99,27 @@ section> .container {
     cursor: pointer;
 }
 
+/* SERVICES */
+.services {
+    background-color:#fff;
+}
+
+.section-heading {
+    text-align:center;
+    color:#0a0a0a;
+}
+.service {
+    text-align:center;
+    color:#0a0a0a;
+    width: 100%;
+    margin: auto auto auto;
+}
+
+.service h3 {
+    font-size:1.5rem;
+    text-transform: uppercase;
+    font-weight:700;
+}
 /* FOOTER*/
 .footer{
     background-color: #f8f8f8;
@@ -111,7 +132,6 @@ section> .container {
 }
 
 .footer ul li a{
-    display: block;
     padding: 5px;
     color: #0a0a0a;
     text-decoration: none;
