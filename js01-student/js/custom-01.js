@@ -130,5 +130,7 @@ let de3 = Math.floor(Math.random() * 9000 + 1000)
 let de4 = Math.floor(Math.random() * 9000 + 1000)
 let de5 = Math.floor(Math.random() * 9000 + 1000)
 let de6 = Math.floor(Math.random() * 9000 + 1000)
-let skaic= numbers.sort(de1,de2,de3,de4,de5,de6)
-console.log(skaic)
+
+
+
+console.log(de1,de2,de3,de4,de5,de6)
