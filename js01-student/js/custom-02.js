@@ -1,8 +1,9 @@
 /* 
-Užduotis 1
+Užduotis 1 DONE!
 Naudodami while loop, konsolėje parašykite nuo 10 iki 1. 
 */
-let num1 = 10
+
+/*let num1 = 10
 while(num1>=1) {
     console.log(num1)
     num1--
@@ -10,10 +11,15 @@ while(num1>=1) {
 
 
 /* 
-Užduotis 2
+Užduotis 2 DONE!
 Naudodami for loop, konsolėje parašykite nuo 10 iki 1.
 */
 
+/*
+for(let i = 10; i >= 1; i--)
+{
+    console.log(i)
+}
 
 
 /*
@@ -29,6 +35,14 @@ let kiekMenSpausdinti = 12;
 Po 1 mėnesio(-ių) bus 16 avių!
 Po 2 mėnesio(-ių) bus 64 avių!
 */
+
+/*let numAvys = 4;
+let numMenuo = 1;
+let kiekMenSpausdinti = 12;
+while(kiekMenSpausdinti <= 12){
+    console.log(numAvys)
+    
+}
 
 
 
@@ -71,25 +85,33 @@ let totalMW = 0;
 
 
 /*
-Užduotis 7
-Papildyk while loop taip, kad tik lyginiai skaičiai būtų spausdinami. Tavo rezultatas turėtų būti lyginiai skaičiai nuo 10 iki 2 žemėjančia tvarka.
+Užduotis 7 DONE!
+Papildyk while loop taip, kad tik lyginiai skaičiai būtų spausdinami. Tavo rezultatas turėtų būti lyginiai skaičiai nuo 10 iki 2 žemėjančia tvarka.*/
 
+/*
 let num=10;
 while (num > 0) {
-
-console.log(num);
-
-num--;
+    if (num%2==0){ 
+        console.log(num);
+    }
+    num--;
 }
-*/
+
 
 
 
 /*
-Užduotis 8
+Užduotis 8 DONE!
 Sukurk funkciją maxOf2, kuri priima du skaičius ir gražina didesnį skaičių. Nepamiršk galimybės, kad skaičiai bus lygūs. Tuo atveju gražink vieną iš skaičių.
 */
 
+/*let skaicius = maxOf2(150, 1500)
+console.log(skaicius)
+function maxOf2(x,y){
+    if(x>y)
+        return x;
+    return y;
+}
 
 
 /*
@@ -104,11 +126,14 @@ Būtinos sąlygos:
 - Temperatūra turi būti konvertuojama iš Farenheito į Celsijų
 - Rezultatą išvesti konsolėje
 
-Rezultatas:
+Rezultatas: DONE!
 Lietuvoje šiuo metu -3.3 laipsnių pagal Celsijų
 */
 
-
+/*
+let far = 26
+let cel = (far - 32) * 5/9 
+console.log('Lietuvoje šiuo metu ' + ((Math.round((cel+Number.EPSILON)*10)/10)) +' '+ 'laipsnių pagal Celsijų ')
 
 /*
 Užduotis 10
@@ -119,10 +144,16 @@ Turime masyvą, kuriame yra trumpos tekstinės eilutės (pateikta apačioje). M�
 4. Išvedimas turi būti dinamiškas (pasikeitus masyve esančių eilučių skaičiui - vis tiek gautume kiekvienos eilutės ilgiausią žodį)
 5. Rezultatą išvesti konsolėje
 
-// Masyvas
+// Masyvas*/
 let posts = ["Sveikinu radus darbą", "Ar tikrai pabaigus kursą viskas bus gerai", "Javascript nėra Java", "Rasti video medžiagą visada šaunu"];
-*/
 
+const postsArray = String(posts).split(' ');
+const sortedpostsArray = postsArray.sort(  
+    (strA, straB) => {
+        return straB.length - strA.length;
+    }
+)
+console.log(sortedpostsArray[0]);
 
 
 /*
