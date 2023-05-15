@@ -18,6 +18,7 @@ body {
     position: fixed;
     width: 100%;
     display: block;
+    
 }
 
 .container {
@@ -43,6 +44,7 @@ body {
     color: #0a0a0a;
     text-transform: uppercase;
     text-decoration: none;
+    justify-content: space-around;
     font-size: 1rem;
     margin: 0 5px;
     padding: 10px 17px;
@@ -57,13 +59,10 @@ body {
     display: none;
 }
 
-.logo {
-    padding: px 0;
-    
-}
-img{
+.site-header img{
     max-width: 25%;
-    max-height: 30%;
+    max-height: 35%;
+    
 }
 
 
@@ -98,6 +97,10 @@ section> .container {
     display: inline-block;
     cursor: pointer;
 }
+.hero  a:hover{
+    background-color: #8debd2;
+    border-radius: 5px;
+}
 
 /* SERVICES */
 .services {
@@ -112,13 +115,23 @@ section> .container {
     text-align:center;
     color:#0a0a0a;
     width: 100%;
-    margin: auto auto auto;
+    margin: 10px 10px auto;
 }
 
 .service h3 {
-    font-size:1.5rem;
+    font-size:1.7rem;
     text-transform: uppercase;
     font-weight:700;
+}
+
+.service a:hover{
+    background-color: #5ebfa5;
+    border-radius: 5px;
+}
+
+.services img{
+    max-width: 40%;
+    
 }
 /* FOOTER*/
 .footer{
