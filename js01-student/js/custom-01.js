@@ -66,10 +66,10 @@ else {
 /* 05.
 Sukurkite keturis kintamuosius ir ​Math.random()​ funkcija sugeneruokite jiems reikšmes nuo 0 iki 2. Suskaičiuokite kiek yra nulių, vienetų ir dvejetų.
 */
-let pir = Math.random() * 3
-let ant = Math.random() * 3
-let tre = Math.random() * 3
-let ket = Math.random() * 3
+let pir = Math.random() * 2
+let ant = Math.random() * 2
+let tre = Math.random() * 2
+let ket = Math.random() * 2
 if (an > pi < tr){
     console.log(pi);
 }
