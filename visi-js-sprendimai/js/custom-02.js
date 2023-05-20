@@ -266,11 +266,11 @@ i, biudzetas = 1600;
 console.log("Galimi variantai:")
 
 for (i = 0; i < pcs.length; i++){
-    if(((pcs[i].spalva.balta >= 2) || (pcs[i].spalva.juoda >=2) && ((pcs[i].kaina * 2) <= biudzetas))) {
+    if (((pcs[i].spalva.balta >= 2) || (pcs[i].spalva.juoda >=2)) && ((pcs[i].kaina * 2) <= biudzetas)) {
         let spalvos = Object.keys(pcs[i].spalva), 
         spalva = ""
 
-        for( j = 0; j < spalvos.length; j++){
+        for( let j = 0; j < spalvos.length; j++){
             if (((spalvos[j] === "juoda") && (pcs[i].spalva.juoda >= 2)) || ((spalvos[j] === "balta") && (pcs[i].spalva.balta >= 2))) {
                 if (spalva.length > 0){
                     spalva += " ir " + spalvos[j]
