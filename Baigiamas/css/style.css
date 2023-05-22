@@ -10,7 +10,10 @@ html {
 }
 
 body {
+    min-height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .site-header {
@@ -29,6 +32,7 @@ body {
 
 .flex-container {
     display: flex;
+    
 }
 
 .site-header .container {
