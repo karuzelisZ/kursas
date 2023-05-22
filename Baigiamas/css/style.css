@@ -157,10 +157,6 @@ section> .container {
 .footer ul li a{
     padding: 5px;
     color: #0a0a0a;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
 }
 
 .footer ul li a:hover{
