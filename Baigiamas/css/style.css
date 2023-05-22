@@ -28,6 +28,7 @@ body {
     max-width: 1140px;
     margin: auto auto;
     padding: 20px 20px;
+    
 }
 
 .flex-container {
@@ -64,8 +65,8 @@ body {
 }
 
 .site-header img{
-    max-width: 25%;
-    max-height: 35%;
+    max-width: 50%;
+    max-height: 50%;
     
 }
 
@@ -107,10 +108,11 @@ section> .container {
 }
 
 /* SERVICES */
+
 .services {
+    padding: 120px 0;
     background-color:#fff;
 }
-
 .section-heading {
     text-align:center;
     color:#0a0a0a;
@@ -119,7 +121,6 @@ section> .container {
     text-align:center;
     color:#0a0a0a;
     width: 100%;
-    margin: 10px 10px auto;
 }
 
 .service h3 {
@@ -134,13 +135,18 @@ section> .container {
 }
 
 .services img{
-    max-width: 40%;
-    
+    max-width: 60%;
+    min-height: 60px;
 }
 /* FOOTER*/
 .footer{
     background-color: #f8f8f8;
-    padding: 50px 0;
+    padding: 0px 0;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    
 }
 
 .footer ul{
@@ -244,5 +250,7 @@ section> .container {
     .section-heading h2{
         font-size: 2rem;
     }
-    
+    .footer {
+        padding-left: 0;
+    }
 }
