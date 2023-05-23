@@ -7,8 +7,4 @@ let slider = tns({
     controls:false,
     nav:false,
     autoplayButtonOutput: false,
-    responsive: {
-        640: {items: 2},
-        760: {items: 3} 
-    }
 })
