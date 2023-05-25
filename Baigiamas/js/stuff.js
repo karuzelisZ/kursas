@@ -8,3 +8,4 @@ let slider = tns({
     nav:false,
     autoplayButtonOutput: false,
 })
+

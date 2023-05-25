@@ -11,3 +11,7 @@ console.log(studentai)
 
 studentai.push("Ruta")
 console.log(studentai)
+
+
+let x = 8%3;
+console.log("Hello");
