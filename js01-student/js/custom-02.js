@@ -40,7 +40,9 @@ Po 2 mėnesio(-ių) bus 64 avių!
 let numMenuo = 1;
 let kiekMenSpausdinti = 12;
 while(kiekMenSpausdinti <= 12){
-    console.log(numAvys)
+    numAvys *=4;
+    console.log("Po " + numMenuo + " mėnesio(-ių) bus " + numAvys + " avių(-ys!)");
+    numMenuo++;
     
 }
 
@@ -131,9 +133,9 @@ Lietuvoje šiuo metu -3.3 laipsnių pagal Celsijų
 */
 
 /*
-let far = 26
-let cel = (far - 32) * 5/9 
-console.log('Lietuvoje šiuo metu ' + ((Math.round((cel+Number.EPSILON)*10)/10)) +' '+ 'laipsnių pagal Celsijų ')
+let tekstas = "Lietuvoje šiuo metu laipsnių pagal Celsijų"
+let cel = (26 - 32) * 5/9 
+console.log('${tekstas.substr (0,20)} ${oras.toFixed(1)} ${tekstas.substr(19,41)});
 
 /*
 Užduotis 10
@@ -145,7 +147,9 @@ Turime masyvą, kuriame yra trumpos tekstinės eilutės (pateikta apačioje). M�
 5. Rezultatą išvesti konsolėje
 
 // Masyvas*/
-let posts = ["Sveikinu radus darbą", "Ar tikrai pabaigus kursą viskas bus gerai", "Javascript nėra Java", "Rasti video medžiagą visada šaunu"];
+let posts = ["Sveikinu radus darbą", "Ar tikrai pabaigus kursą viskas bus gerai", "Javascript nėra Java", "Rasti video medžiagą visada šaunu"],
+    i,
+    result = "";
 
 const postsArray = String(posts).split(' ');
 const sortedpostsArray = postsArray.sort(  
